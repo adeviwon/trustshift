@@ -1,0 +1,5 @@
+target/
+!target/deploy/
+target/*
+!target/deploy/trustshift.so
+!target/deploy/trustshift-keypair.json
