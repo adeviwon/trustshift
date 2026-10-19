@@ -1,8 +1,14 @@
 # TrustShift — trustless P2P payments on Solana, zero intermediary
 
 **Bounty:** Finance Without Intermediaries — Superteam Poland Track at HackYeah
-**Program ID:** `6FoeU1wFmhh7DrWUvaeGVyFFJNx67VzS78hRjpq6Jpo8`
-**Network:** Solana devnet-first (tested in-process on LiteSVM)
+**Program ID (devnet target):** `6FoeU1wFmhh7DrWUvaeGVyFFJNx67VzS78hRjpq6Jpo8`
+**Status:** the committed SBF binary is verified end-to-end **in-process with
+LiteSVM** — the real compiled program executing under Solana runtime semantics,
+not a mock. Devnet deployment was attempted at submission time but the public
+faucet is rate-limited for this host; the Program ID above is the deploy target
+(`solana program deploy program/target/deploy/trustshift.so`).
+**Video:** [video/trustshift-demo.mp4](video/trustshift-demo.mp4) (~2m45s,
+10-slide walkthrough + real demo transcript)
 
 ## The problem
 
